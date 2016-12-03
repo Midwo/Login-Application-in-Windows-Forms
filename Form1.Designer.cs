@@ -143,6 +143,7 @@
             this.b1.TabIndex = 9;
             this.b1.Text = "Zaloguj";
             this.b1.UseVisualStyleBackColor = false;
+            this.b1.Click += new System.EventHandler(this.b1_Click);
             // 
             // Form1
             // 
