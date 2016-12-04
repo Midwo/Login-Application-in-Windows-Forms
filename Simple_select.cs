@@ -10,7 +10,7 @@ namespace Login_Application
 {
     class Simple_select
     {
-        SqlConnection con = new SqlConnection(Properties.Settings.Default.agent2214_db1portfolioConnectionString1);
+        SqlConnection con = new SqlConnection(Properties.Settings.Default.Connect);
 
         public DataSet select(string zapytanie, string baza)
         {

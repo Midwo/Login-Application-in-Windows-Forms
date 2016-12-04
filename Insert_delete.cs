@@ -16,7 +16,7 @@ namespace Login_Application
         {
             System.Data.SqlClient.SqlConnection M1conn;
             M1conn = new SqlConnection();
-            M1conn.ConnectionString = Properties.Settings.Default.agent2214_db1portfolioConnectionString1;
+            M1conn.ConnectionString = Properties.Settings.Default.Connect;
             M1conn.Open();
             System.Data.SqlClient.SqlCommand M1command = new SqlCommand();
             M1command.Connection = M1conn;

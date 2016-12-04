@@ -12,6 +12,8 @@ namespace Login_Application
 {
     public partial class Form1 : Form
     {
+        Simple_select zapytanie = new Simple_select();
+        DataSet tabela = new DataSet();
         public Form1()
         {
             InitializeComponent();
