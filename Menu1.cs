@@ -15,6 +15,7 @@ namespace Login_Application
         public Menu1()
         {
             InitializeComponent();
+            toolStripStatusLabel1.Text = "Witaj: " + Uzytkownik_zalogowany.zalogowany +", data logowania: " + Uzytkownik_zalogowany.czas_zalogowania;
         }
     }
 }

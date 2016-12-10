@@ -158,7 +158,7 @@
             this.Controls.Add(this.b1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "MD login ap";
             this.groupBox1.ResumeLayout(false);
             this.gb1.ResumeLayout(false);
             this.gb1.PerformLayout();
