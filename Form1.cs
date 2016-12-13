@@ -47,6 +47,9 @@ namespace Login_Application
                     Uzytkownik_zalogowany.czas_zalogowania = DateTime.Now.ToString();
                     MessageBox.Show("Data ważności licencji: " + datalicencji1.ToShortDateString() + "", "MD - Licencja informacja");
                     Menu1 fk = new Menu1();
+                    Insert_delete zal = new Insert_delete();
+                    zal.Komenda = "Insert into [agent2214_db1portfolio].[agent2214_midmax].[Login_info] ([Login],[Date])Values('"+tb1.Text+"', GETDATE())";
+                    zal.dane_do_edycji();
                     fk.Show();
                     this.Visible = false;
 
