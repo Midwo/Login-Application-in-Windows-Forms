@@ -18,6 +18,7 @@ namespace Login_Application
             SqlDataAdapter adapter_testowe3 = new SqlDataAdapter(" " + zapytanie + "", con);
             adapter_testowe3.Fill(testowe3, "" + baza + "");
             return testowe3;
+          
         }
     }
 }
